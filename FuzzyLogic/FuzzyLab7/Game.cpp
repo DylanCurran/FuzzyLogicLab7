@@ -59,6 +59,18 @@ void Game::run()
 		render(); // as many as possible
 	}
 }
+float Game::calculateLeftTriangle()
+{
+	return 0.0f;
+}
+float Game::calculateRightTriangle()
+{
+	return 0.0f;
+}
+float Game::calculateWithinBounds()
+{
+	return 0.0f;
+}
 /// <summary>
 /// handle user and system events/ input
 /// get key presses/ mouse moves etc. from OS
